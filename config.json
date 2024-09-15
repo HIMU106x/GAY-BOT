@@ -23,8 +23,8 @@
     "whiteListIds": ["100066839859875"],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": " 𝘼𝙣𝙘𝙝𝙚𝙨𝙩𝙤𝙧 𝘼𝙞 ",
-  "prefix": "/",
+  "nickNameBot": " 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 ☠️ ",
+  "prefix": ".",
   "database": {
     "type": "mongodb",
     "uriMongodb": "mongodb+srv://daddycallingbusiness:CygqkQUbg1ZQVNgb@cluster0.i3ptn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
