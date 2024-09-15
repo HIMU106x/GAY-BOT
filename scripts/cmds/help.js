@@ -30,7 +30,7 @@ module.exports = {
     const prefix = getPrefix(threadID);
 
     if (args.length === 0) {
-      let msg = `━━━ 👽 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 👽 ━━━\n\n`;
+      let msg = `━━━ ☠️ 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 ☠️ ━━━\n\n`;
 
       const categories = {};
 
@@ -58,7 +58,7 @@ module.exports = {
 
     } else if (args[0] === "-s" && args[1]) {
       const searchLetter = args[1].toLowerCase();
-      let msg = `━━━ 👽 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 👽 ━━━\n\n`;
+      let msg = `━━━ ☠️ 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 ☠️ ━━━\n\n`;
 
       const searchResults = [];
       for (const [name, value] of commands) {
@@ -80,7 +80,7 @@ module.exports = {
 
     } else if (args[0] === "-r" && args[1]) {
       const reviewType = args[1].toLowerCase();
-      let msg = `━━━ 👽 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 👽 ━━━\n\n`;
+      let msg = `━━━ ☠️ 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 ☠️ ━━━\n\n`;
 
       if (reviewType === "logs") {
         msg += `Here are the latest logs:\n[Log details...]\n`;
@@ -94,7 +94,7 @@ module.exports = {
 
     } else if (args[0] === "-m" && args[1]) {
       const monitorAction = args[1].toLowerCase();
-      let msg = `━━━ 👽 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 👽 ━━━\n\n`;
+      let msg = `━━━ ☠️ 𝗔𝗡𝗖𝗛𝗘𝗦𝗧𝗢𝗥 𝗔𝗜 ☠️ ━━━\n\n`;
 
       if (monitorAction === "start" && args[2]) {
         msg += `Started monitoring ${args[2]}.\n`;
