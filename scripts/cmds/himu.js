@@ -2,12 +2,12 @@ const axios = require('axios');
 
 module.exports = {
   config: {
-    name: "mahi",
+    name: "himu",
     version: "1.0",
     author: "Mahi--",
     role: 0,
-    shortDescription: "Responds to 'mahi', 'mâhî', 'høpéléss', 'easir', or 'aizen' with a random message and a random GIF",
-    longDescription: "Sends a random text and a random GIF when any of the keywords 'mahi', 'mâhî', 'høpéléss', 'easir', or 'aizen' are detected in the message.",
+    shortDescription: "Responds to 'himu', 'Høpéléss', 'Hîmú', 'saif', or '' with a random message and a random GIF",
+    longDescription: "Sends a random text and a random GIF when any of the keywords 'himu', 'Hîmú', 'høpéléss', 'saif', or '' are detected in the message.",
     category: "Fun",
   },
 
@@ -34,10 +34,10 @@ module.exports = {
       ];
 
       // Keywords to check for
-      const keywords = ["mahi", "mâhî", "høpéléss", "easir", "aizen"];
+      const keywords = ["himu", "Hîmú", "høpéléss", "saif", ""];
 
       // The user ID to exclude
-      const excludedUserId = "100072881080249";
+      const excludedUserId = "100066839859875";
 
       // Check if the message contains any of the keywords (case insensitive) and if the user ID does not match the excluded one
       if (
